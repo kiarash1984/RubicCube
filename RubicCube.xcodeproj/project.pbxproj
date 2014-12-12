@@ -6,10 +6,51 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0B63EEAA1A3B37BD00BB5CEA /* coloringFragmentShader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coloringFragmentShader.fs; sourceTree = "<group>"; };
+		0B63EEAB1A3B37D300BB5CEA /* blocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blocks.cpp; sourceTree = "<group>"; };
+		0B63EEAC1A3B37D300BB5CEA /* blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blocks.h; sourceTree = "<group>"; };
+		0B63EEAD1A3B37D300BB5CEA /* coloringFragmentShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coloringFragmentShader.fsh; sourceTree = "<group>"; };
+		0B63EEAE1A3B37D300BB5CEA /* coloringVertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coloringVertexShader.vs; sourceTree = "<group>"; };
+		0B63EEAF1A3B37D300BB5CEA /* coloringVertexShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coloringVertexShader.vsh; sourceTree = "<group>"; };
+		0B63EEB01A3B37D300BB5CEA /* leftlightFragmentShader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = leftlightFragmentShader.fs; sourceTree = "<group>"; };
+		0B63EEB11A3B37D300BB5CEA /* leftlightVertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = leftlightVertexShader.vs; sourceTree = "<group>"; };
+		0B63EEB21A3B37D300BB5CEA /* lightingFragmentShader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = lightingFragmentShader.fs; sourceTree = "<group>"; };
+		0B63EEB31A3B37D300BB5CEA /* lightingFragmentShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = lightingFragmentShader.fsh; sourceTree = "<group>"; };
+		0B63EEB41A3B37D300BB5CEA /* lightingFragmentShader2.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = lightingFragmentShader2.fs; sourceTree = "<group>"; };
+		0B63EEB51A3B37D300BB5CEA /* lightingVertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = lightingVertexShader.vs; sourceTree = "<group>"; };
+		0B63EEB61A3B37D300BB5CEA /* lightingVertexShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = lightingVertexShader.vsh; sourceTree = "<group>"; };
+		0B63EEB71A3B37D300BB5CEA /* lightingVertexShader2.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = lightingVertexShader2.vs; sourceTree = "<group>"; };
+		0B63EEB81A3B37D300BB5CEA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0B63EEB91A3B37D300BB5CEA /* mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainwindow.cpp; sourceTree = "<group>"; };
+		0B63EEBA1A3B37D300BB5CEA /* mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainwindow.h; sourceTree = "<group>"; };
+		0B63EEBB1A3B37D300BB5CEA /* Visualizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Visualizer.cpp; sourceTree = "<group>"; };
+		0B63EEBC1A3B37D300BB5CEA /* Visualizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visualizer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0B63EEA31A3B379500BB5CEA = {
 			isa = PBXGroup;
 			children = (
+				0B63EEAA1A3B37BD00BB5CEA /* coloringFragmentShader.fs */,
+				0B63EEAB1A3B37D300BB5CEA /* blocks.cpp */,
+				0B63EEAC1A3B37D300BB5CEA /* blocks.h */,
+				0B63EEAD1A3B37D300BB5CEA /* coloringFragmentShader.fsh */,
+				0B63EEAE1A3B37D300BB5CEA /* coloringVertexShader.vs */,
+				0B63EEAF1A3B37D300BB5CEA /* coloringVertexShader.vsh */,
+				0B63EEB01A3B37D300BB5CEA /* leftlightFragmentShader.fs */,
+				0B63EEB11A3B37D300BB5CEA /* leftlightVertexShader.vs */,
+				0B63EEB21A3B37D300BB5CEA /* lightingFragmentShader.fs */,
+				0B63EEB31A3B37D300BB5CEA /* lightingFragmentShader.fsh */,
+				0B63EEB41A3B37D300BB5CEA /* lightingFragmentShader2.fs */,
+				0B63EEB51A3B37D300BB5CEA /* lightingVertexShader.vs */,
+				0B63EEB61A3B37D300BB5CEA /* lightingVertexShader.vsh */,
+				0B63EEB71A3B37D300BB5CEA /* lightingVertexShader2.vs */,
+				0B63EEB81A3B37D300BB5CEA /* main.cpp */,
+				0B63EEB91A3B37D300BB5CEA /* mainwindow.cpp */,
+				0B63EEBA1A3B37D300BB5CEA /* mainwindow.h */,
+				0B63EEBB1A3B37D300BB5CEA /* Visualizer.cpp */,
+				0B63EEBC1A3B37D300BB5CEA /* Visualizer.h */,
 			);
 			sourceTree = "<group>";
 		};
